@@ -1,0 +1,21 @@
+{
+  "name": "example-docz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "doczrc.js",
+    "tsconfig.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "docz": "2.3.1",
+    "prop-types": "15.7.2",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "styled-components": "5.2.0"
+  },
+  "scripts": {
+    "dev": "docz dev --port 4000"
+  }
+}

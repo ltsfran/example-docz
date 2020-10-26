@@ -1,0 +1,37 @@
+---
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { Button, ButtonGroup } from '../src/components/Button';
+
+# Button
+
+Button component is used to trigger an action or event, such as submitting a form, opening a Dialog, canceling an action, or performing a delete operation.
+
+### Import
+
+```js
+import { Button } from '@docz-ui/button';
+```
+
+### Usage
+
+<Playground>
+  <Button>Button</Button>
+</Playground>
+
+### Button Variant
+
+Use the variant prop to change the visual style of the Button. You can set the value to primary or secondary.
+
+<Playground>
+  <ButtonGroup>
+    <Button variant="primary">Button</Button>
+    <Button variant="secondary">Button</Button>
+  </ButtonGroup>
+</Playground>
+
+### Props
+
+<Props of={Button} />
